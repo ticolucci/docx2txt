@@ -1,0 +1,20 @@
+PATH
+  remote: .
+  specs:
+    Docx2TXT (0.0.1)
+      nokogiri
+      rubyzip
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    mini_portile (0.5.2)
+    nokogiri (1.6.1)
+      mini_portile (~> 0.5.0)
+    rubyzip (1.1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  Docx2TXT!

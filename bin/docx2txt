@@ -1,0 +1,8 @@
+#! /usr/bin/env ruby
+require 'docx2txt'
+
+if ARGV.empty?
+  puts "Usage:\n\tdocx2txt <path-to-MS-Docx-file>"
+else
+  puts Docx2TXT::Docx.new(ARGV.first).to_txt
+end
