@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'docx2txt/version'
 
 Gem::Specification.new do |gem|
-  gem.name          = "Docx2TXT"
+  gem.name          = "docx2txt"
   gem.version       = Docx2TXT::VERSION
   gem.authors       = ["Thiago Colucci"]
   gem.email         = ["ticolucci@gmail.com"]
